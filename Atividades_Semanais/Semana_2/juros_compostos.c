@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <math.h> //Para incluir a fun��o pow
+#include <math.h> //Para incluir a função pow
 
 int main()
 {
