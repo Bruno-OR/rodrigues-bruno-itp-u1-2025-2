@@ -1,11 +1,8 @@
 #include <stdio.h>
-#include <math.h> //Para incluir a função pow
-#include <locale.h>
+#include <math.h> //Para incluir a funï¿½ï¿½o pow
 
 int main()
 {
-
-    setlocale(LC_CTYPE, "Portuguese"); // Usado para imprimir corretamente os acentos e caracteres especiais em português
 
     float capital_inicial, taxa_juros, montante_final;
     int tempo_anos;
@@ -20,7 +17,7 @@ int main()
     montante_final = capital_inicial * pow(1 + (taxa_juros / 100), tempo_anos);
 
     printf("\n--- Resultado do Investimento ---\n");
-    printf("\nApós %d anos, o montante final será de: R$ %.2f", tempo_anos, montante_final);
+    printf("\nApÃ³s %d anos, o montante final serÃ¡ de: R$ %.2f", tempo_anos, montante_final);
 
     return 0;
 }

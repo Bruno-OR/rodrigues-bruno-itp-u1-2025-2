@@ -1,17 +1,14 @@
 #include <stdio.h>
-#include <locale.h>
 
 int main()
 {
 
-    setlocale(LC_CTYPE, "Portuguese"); // Usado para imprimir corretamente os acentos e caracteres especiais em português
-
     int num1, num2, soma, sub, resto;
     float div, media;
 
-    printf("\nDigite o primeiro número inteiro:");
+    printf("\nDigite o primeiro nï¿½mero inteiro:");
     scanf("%d", &num1);
-    printf("Digite o segundo número inteiro:");
+    printf("Digite o segundo nï¿½mero inteiro:");
     scanf("%d", &num2);
 
     soma = num1 + num2;
@@ -25,8 +22,8 @@ int main()
     printf("%d + %d = \t%d\n", num1, num2, soma);
     printf("\n%d - %d = \t%d\n", num1, num2, sub);
     printf("\n%d / %d = \t%.2f\n", num1, num2, div);
-    printf("\nO resto da divisão entre %d e %d = %d", num1, num2, resto);
-    printf("\nA média aritmética entre %d e %d = %.2f", num1, num2, media);
+    printf("\nO resto da divisï¿½o entre %d e %d = %d", num1, num2, resto);
+    printf("\nA mï¿½dia aritmï¿½tica entre %d e %d = %.2f", num1, num2, media);
 
     return 0;
 }

@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h> //Para incluir a função pow
-#include <locale.h>
 #include <ctype.h>
+
 int main()
 {
     float taxa_Fixa = 15;

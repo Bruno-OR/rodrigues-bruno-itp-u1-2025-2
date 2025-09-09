@@ -1,11 +1,9 @@
 #include <stdio.h>
 #include <math.h> //Para incluir a função pow
-#include <locale.h>
 
 int main()
 {
 
-    setlocale(LC_CTYPE, "Portuguese"); // Usado para imprimir corretamente os acentos e caracteres especiais em português
     float peso, altura, imc;
 
     printf("\nQual o seu peso (em Kg)? ");
