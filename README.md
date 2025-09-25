@@ -11,7 +11,7 @@
 ## 📈 Projeto: Simulador de Investimentos
 **Descrição**: Uma aplicação em C que permita ao usuário simular o tempo de investimento necessário para atingir determinada meta de renda de uma carteira baseada em dados fundamentais de uma Ação ou Fundo Imobiliário bem como a meta e valores investidos, ambos definidos pelo usuário. O desenvolvimento do projeto será incremental, com novas funcionalidades sendo adicionadas ao longo do semestre, aplicando os conceitos aprendidos em aula.
 
-**Repositório**: https://github.com/Bruno-OR/ITP
+**Repositório**: https://github.com/Bruno-OR/rodrigues-bruno-itp-u1-2025-2
 
 **Vídeo de Demonstração**: [Link para o vídeo de demonstração]
 
