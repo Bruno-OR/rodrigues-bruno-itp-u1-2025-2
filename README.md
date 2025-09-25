@@ -1,7 +1,7 @@
 # Introdução a Técnicas de Programação
-**Aluno**: Bruno Cézar de Oliveira Rodrigues
-**Matrícula**: 20250052728
-**Período**: 2025.2
+* **Aluno**: Bruno Cézar de Oliveira Rodrigues
+* **Matrícula**: 20250052728
+* **Período**: 2025.2
 
 ## 📁 Estrutura do Projeto
 - **projeto/:** Projeto principal da unidade
