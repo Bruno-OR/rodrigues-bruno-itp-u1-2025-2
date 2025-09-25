@@ -1,50 +1,76 @@
-# Introdução à Teoria da Programação (ITP) - Atividades e Projeto da disciplina
+# Introdução a Técnicas de Programação
+**Aluno**: Bruno Cézar de Oliveira Rodrigues
+**Matrícula**: 20250052728
+**Período**: 2025.2
 
-Este repositório documenta meu progresso na disciplina de ITP, contendo tanto as atividades práticas semanais quanto o desenvolvimento do projeto final. O código-fonte de todas as implementações está disponível para avaliação.
+## 📁 Estrutura do Projeto
+- **projeto/:** Projeto principal da unidade
+- **listas/:** Soluções das listas de exercícios
+- **README.md:** Este arquivo
 
-## 📈 Apresentação do Projeto: Simulador de Investimentos
+## 📈 Projeto: Simulador de Investimentos
+**Descrição**: Uma aplicação em C que permita ao usuário simular o tempo de investimento necessário para atingir determinada meta de renda de uma carteira baseada em dados fundamentais de uma Ação ou Fundo Imobiliário bem como a meta e valores investidos, ambos definidos pelo usuário. O desenvolvimento do projeto será incremental, com novas funcionalidades sendo adicionadas ao longo do semestre, aplicando os conceitos aprendidos em aula.
 
-O principal componente deste repositório é um projeto em desenvolvimento contínuo: um Simulador de Investimentos em Ações e Fundos Imobiliários.
+**Repositório**: https://github.com/Bruno-OR/ITP
 
-**Objetivo**: Criar uma aplicação em C que permita ao usuário simular o tempo de investimento necessário para atingir determinada meta de renda de uma carteira baseada em dados fundamentais de uma Ação ou Fundo Imobiliário bem como a meta e valores investidos, ambos definidos pelo usuário.
-O desenvolvimento do projeto será incremental, com novas funcionalidades sendo adicionadas ao longo do semestre, aplicando os conceitos aprendidos em aula.
+**Vídeo de Demonstração**: [Link para o vídeo de demonstração]
 
-## 📂 Organização do Repositório
+### Funcionalidades Implementadas:
+- **Menu Interativo:** Permite ao usuário navegar entre as diferentes opções do simulador.
+- **Cadastro de Ativos:** O usuário pode inserir os dados de uma Ação ou Fundo Imobiliário (preço, dividendo anual).
+- **Simulação de Investimento:** Calcula o tempo necessário em meses para atingir uma meta de renda passiva, com base em aportes mensais definidos pelo usuário.
+- **Exibição de Relatório:** Mostra o resultado da simulação de forma clara, incluindo o total investido e o tempo para atingir o objetivo.
 
-O conteúdo está dividido em duas áreas principais para facilitar a avaliação:
+### Conceitos da U1 Aplicados:
+* **Estruturas condicionais:** Utilizadas para gerenciar o menu principal (switch-case) e para validar as entradas do usuário, evitando erros no programa.
+* **Estruturas de repetição:** Foram usados dois laços de repetição, sendo um para manter o menu de opções sempre disponível até que o usuário escolha a opção de sair e o outro para realizar a simulação mês a mês, calculando o reinvestimento de dividendos e novos aportes, até que a meta de renda seja atingida.
+* **Vetores:** Foram usados para armazenar a lista de ativos e suas informações. 
+* **Funções:** O projeto foi dividido em algumas funções tornando o programa mais limpo e organizado. 
 
-* **Atividades_Semanais/**: Contém as pastas ('Semana_2', 'Semana_3', etc.) com os exercícios propostos em cada semana da disciplina.
-* **Projeto/**: Diretório dedicado exclusivamente ao código-fonte do projeto.
+## 📝 Listas de Exercícios
+As soluções para as listas de exercícios da Unidade 1 estão na pasta `listas/`.
 
-## 💻 Tecnologias
+### Semana 2 - Variáveis, Tipos e Operadores
+* Problema 1: Calculadora de IMC
+* Problema 2: Conversão de temperatura
+* Problema 3: Cálculo de juros compostos
+* Problema 4: Operações aritméticas básicas
 
-* **Linguagem**: C
-* **Compilador**: GCC
-* **Ambiente de Desenvolvimento**: Visual Studio Code
+### Semana 3 - Estruturas Condicionais
+* Problema 1: Classificação de IMC
+* Problema 2: Calculadora de energia elétrica
+* Problema 3: Sistema de notas
+* Problema 4: Pedra, papel, tesoura
+* Problema 5: Calculadora de desconto progressivo
+* Problema 6: Diagnóstico médico simples
+* Problema 7: Sistema de equações do 2º grau
+* Problema 8: Validador de triângulos
 
-## 📝 Lista de Atividades Concluídas
+### Semana 4A - Repetições Simples
+* Problema 1: Dobrando até não poder mais
+* Problema 2: Salve o homem aranha
+* Problema 3: Números colegas
+* Problema 4: Jogo de dardos
 
-Um registro das atividades práticas desenvolvidas semanalmente.
+### Semana 4B - Análise e Padrões
+* Questões 1-4: Análise de código
+* Questões 5-11: Implementações de padrões e problemas
 
-### Semana 2
-* **Calculadora de IMC**: Lê peso e altura para calcular o Índice de Massa Corporal.
-* **Conversor de Temperatura**: Converte graus Celsius para Fahrenheit e Kelvin.
-* **Cálculo de Juros Compostos**: Lê o capital inicial, a taxa de juros e o tempo e retorna o montante final.
-* **Operações Aritméticas**: Realiza as quatro operações básicas, além de média e resto da divisão.
+### Semana 5 - Funções (Parte 1)
+* Problema 1: Horários das rondas
+* Problema 2: Primos triplos
+* Problema 3: Pousando a sonda espacial
 
-### Semana 3
-* **Classificação de IMC**: Incrementa a calculadora de IMC, agora definindo a classificação baseada no resultado do IMC.
-* **Calculadora de Conta de Energia**: Calcula o valor da conta com base no consumo e tipo de consumidor.
-* **Sistema de Notas**: Calcula a média de um aluno e o classifica como aprovado, reprovado ou em recuperação. 
-* **Jogo "Pedra, Papel e Tesoura" (Jokenpo)**: Simula uma partida entre dois jogadores.
-* **Calculadora de desconto progressivo**: Calcula o desconto baseado no valor do produto.
-* **Diagnóstico médico**: Através das respostas do usuário, o programa informa qual a possível enfermidade.
-* **Equação do segundo grau**: Calcula as raízes de uma equação do segundo grau.
-* **Classificador de Triângulos**: Determina a existência e classifica um triângulo quanto aos lados e ângulos.
+### Semana 6 - Vetores
+* Problema 1: MEC Correção ENEM
+* Problema 2: Álbum de figurinhas
+* Problema 3: A construção da ponte
+* Problema 4: Em busca do tesouro perdido
 
+## 🎯 Principais Aprendizados
+Com a introdução dos conceitos da unidade 1 ganhamos base para saber como otimizar um programa. O uso dos condicionais e estruturas de repetição nos permitiu a criação de algoritmos capazes de tomar decisões e testar múltiplas combinações. Já com o uso das funções, foi possível dividir o problema em partes, as quais cada uma se responsabiliza por alguma coisa, o que deixa o código mais limpo e fácil de entender e até de encontrar erros. E, por fim, o uso dos vetores nos garante a manipulação eficiente de um conjunto de dados. Ou seja, juntos, esses conceitos básicos forma um poderoso arsenal para a construção de um programa robusto e eficiente.
 
-*(Esta seção será atualizada conforme a conclusão de novas atividades.)*
-
-## 👨‍💻 Autor
-
-Desenvolvido por Bruno Rodrigues.
+## 💻 Ambiente de Desenvolvimento
+* **SO**: Windows
+* **Compilador**: GCC (via MinGW/MSYS2)
+* **Editor**: Visual Studio Code
