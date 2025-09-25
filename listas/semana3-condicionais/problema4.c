@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <math.h>
 #include <ctype.h> // Para a função toupper que vai converter a letra digitada para maiúscula
 
 int main()
