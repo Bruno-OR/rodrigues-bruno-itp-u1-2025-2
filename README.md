@@ -13,7 +13,7 @@
 
 **Repositório**: https://github.com/Bruno-OR/rodrigues-bruno-itp-u1-2025-2
 
-**Vídeo de Demonstração**: https://youtu.be/4Bv1B02Xol4
+**Vídeo de Demonstração**: https://youtu.be/pjq3BbfsSOA
 
 ### Funcionalidades Implementadas:
 - **Menu Interativo:** Permite ao usuário navegar entre as diferentes opções do simulador.
